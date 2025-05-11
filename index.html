@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mothers Day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="intro" id="introText" onclick="showEnvelope()">
+        Hi Ammii! 💖 <br /> <br />
+        This is for You on WORLD MOTHER'S DAY!<br /><br />
+        Happy Mother's Day AMMII!
+        <div class="intro-pic">
+            <img src="./pics/P2.jpg" alt="Me and Ammi" />
+        </div>
+    </div>
+    <div class="envelope-container" id="envelopeContainer" onclick="rotateEnvelope()">
+        <div class="envelope" id="envelope">
+            <div class="front">
+                <div class="to-from">
+                    <p class="to">To: <span>Ammii 🥰</span></p>
+                    <p class="from">From: <span>Chooti Menike</span></p>
+                </div>
+                <div class="stamp">
+                    <img src="./pics/P1.jpg" alt="Me and Ammi" class="stamp-photo" />
+                </div>
+            </div>
+            <div class="back" onclick="event.stopPropagation(); showCard();">
+                <div class="card" id="popupCard">
+                    <p>💌 Something Special to Special Women in MY LIFE!💐</p>
+                    <button onclick="goToSurprise()">Click here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="writingSheet" class="writing-sheet">
+        <p>ආදරණීය අම්මි වෙත,</p>
+        <p>ජීවිතේ වැටි වැටී නැගිටින අපිට,<br>
+            මේ කාර්තුව අනෙකුත් කාර්තූන්ට වඩා අසීරු බව දනිමි,<br>
+            කුමක් කෙසේ කරම්ද විසදම්ද යන නිනව්වක් නොමැති තැන්වල<br>
+            අම්මි හැමවිටම තිබුණා විසදුම් නුඹ ළග,,,<br>
+            පිළිගනිමි මා නුඹේ හොදම දියණිය නොවනු ඇත,<br>
+            මුත් සත්තකින්ම,<br>
+            <strong>මම මගේ පණටත් වඩා ආදරය කරමි නුඹට!</strong><br>
+            අම්මි,<br>
+            සය මසක් නොවිදිනා දුක් දර කුසේ දරා මා<br>
+            ඊටත් විසි තුන් වසක් උතුම් වූ මව් පදවියම දරා<br>
+            හොදම දේ හැමවිටම මිට මෙළ වූ රූස්ස ගසක් ලෙස මාට හයියක් වූ<br>
+            ඔබටත්, තාත්තිටත් අනේකවරක් පිං දෙමි මම!!<br>
+        </p>
+        <p>මෙ කාර්තුව අසීරු වූත් මා තනනා එදින<br>
+            සුවබර සිනා බෝ වන දිනයක්ම වනු ඇත!<br>
+            මේ කරනා කැපකිරීම් ඔබේ මුහුණේ ඇදෙන එක සිනා රැල්ලකටම යටය,<br>
+            ඉතින් ඉල්ලමි මා,<br>
+            කිසිදා මා අතැර ඔබ පියමන් නොකරනු ඇත!<br>
+            ජීවිතේ එදිනට ඔබ මා අසල සිටගත යුතුම ඇත!<br>
+        </p>
+        <p>
+            <strong>I LOVE YOU AMMI!!<br>
+            සුබ මව්වරුන්ගේ දිනයක් වේවා අම්මි!!</strong>
+        </p>
+    </div>
+    <div class="falling-hearts">
+        <div class="heart-piece"></div>
+        <div class="heart-piece"></div>
+        <div class="heart-piece"></div>
+    </div>
+
+    <script src="./js/in.js"></script>
+</body>
+</html>
